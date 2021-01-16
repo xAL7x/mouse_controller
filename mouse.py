@@ -14,9 +14,13 @@ if q=="2":
         if z=="y" or z=="yes":
             time.sleep(3)
             mouse.click(Button.right,1)
+        if z=="n" or z=="no":
+            mouse.click(Button.right,1)
     if a=="L" or a=="l":
         z=input(" do you want wait [y/n] \n")
         if z=="y" or z=="yes":
             time.sleep(3)
             mouse.click(Button.left,1)
-        
+        if z=="n" or z=="no":
+            mouse.click(Button.left,1)
+       
